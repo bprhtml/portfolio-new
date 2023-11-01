@@ -4,7 +4,6 @@ function Home() {
     return (
     <>
         <div className="home-page" id="home">
-            <img src="night-sky-kyle-goetsch.jpg" alt="night sky background, credit to Kyle Goetsch" className="home-background"></img>
             <div className="intro-cont">
                 <h1 id="intro-head">Hello, my name is Ben. I am an aspiring web & software developer who has worked with Javascript & its libraries, Python, PHP, and C++.</h1>
                 <img src="portfolio photo.jpeg" alt="Myself, Ben, giving the illusion that I am leaning on Nelson's Column, in Trafalgar Square, London." id="main-portrait"/>

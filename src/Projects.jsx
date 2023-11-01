@@ -8,10 +8,14 @@ let projects = [
 ]
 
 let reactProjects = [
-    {name: 'MovDB', desc: "Using an API from OMDB, this searches and gives info on any film the user searches.", imgSrc: ''},
-    {name: 'TicTacToe', desc: "Created a game of noughts & crosses using React.", imgSrc: ''},
-    {name: 'NewsApp', desc: "Using the WorldNews API, this provides local headlines.", imgSrc: ''},
-    {name: 'WeatherApp', desc: "Using WeatherAPI, this provides weather informtion at users' locations or selected locations.", imgSrc: ''}
+    {name: 'MovDB', desc: "Using an API from OMDB, this searches and gives info on any film the user searches.", imgSrc: 'movies.png'},
+    {name: 'TicTacToe', desc: "Created a game of noughts & crosses using React.", imgSrc: 'tictoe.png'},
+    {name: 'NewsApp', desc: "Using the WorldNews API, this provides local headlines.", imgSrc: 'news.png'},
+    {name: 'WeatherApp', desc: "Using WeatherAPI, this provides weather informtion at users' locations or selected locations.", imgSrc: 'weather.png'}
+]
+
+let miscProjects = [
+    {name: 'Clonda', desc: "Using Pygame, I made a Zelda clone", imgSrc: '/zelda.png'}
 ]
 
 function Projects () {
@@ -19,14 +23,21 @@ function Projects () {
         <>
         <h1 id="projects">Javascript Projects</h1>
         <div className="pcc">
-        <JavaScriptProjectsGrid projects={projects}/>
+            <JavaScriptProjectsGrid projects={projects}/>
         </div>
         <div className="divider-container">
             <div className="divider"></div>
         </div>
         <h1 id="react-projects">React Projects</h1>
         <div className="rpcc">
-        <ReactProjectsGrid reactProjects={reactProjects} />
+            <ReactProjectsGrid reactProjects={reactProjects} />
+        </div>
+        <div className="divider-container">
+            <div className="divider"></div>
+        </div>
+        <h1 id="misc-projects">Miscellaneous Projects</h1>
+        <div>
+            <MiscProjectsGrid miscProjects={miscProjects} />
         </div>
         </>
     )
@@ -71,6 +82,24 @@ function ReactProjectsGrid({ reactProjects }) {
                         <div className="project-name">{project.name}</div>
                         <div className="project-desc">{project.desc}</div>
                     </div>
+                )
+            }))}
+        </div>
+        </>
+    )
+}
+
+function MiscProjectsGrid({ miscProjects }) {
+    return (
+        <>
+        <div className="misc-grid">
+            {miscProjects.map(((project, index) => {
+                return (
+                    <div key={index} className="project-card">
+                        <img src={project.imgSrc} className="project-img" />
+                        <div className="project-name">{project.name}</div>
+                        <div className="project-desc">{project.desc}</div>
+                    </div>    
                 )
             }))}
         </div>

@@ -7,15 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#bulb {
+  height: 5vh;
+  width: 5vh;
+}
+
+#theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 3vh;
+  right: 3vh;
+  height: 6vh;
+  width: 6vh;
+  z-index: 1;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  background-color: rgba(230, 230, 230, 0.3);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-#everything {
-  color: rgb(230, 230, 230);
-  background-color: black;
-  padding-bottom: 10vh;
 }
 
 .github-logo,
@@ -28,10 +42,18 @@ code {
   height: 3.1vh;
   border: none;
   background-color: transparent;
+  margin-inline: 2vh;
 }
 .demo-btn:hover,
 .github-btn:hover {
   background-color: lightgray;
+  scale: 1.5;
+  transition: 300ms;
+}
+.demo-btn:active,
+.github-btn:active {
+  scale: 0.8;
+  transition: 300ms;
 }
 
 .banner-holder {
@@ -46,6 +68,7 @@ code {
   left: 30vw;
   border-radius: 10px;
   background-color: rgba(230, 230, 230, 0.9);;
+  border: 2px solid rgb(20, 20, 20);
   }
   .btn-link {
     display: flex;
@@ -82,7 +105,6 @@ code {
   }
 
   #intro-head {
-    color: white;
     width: 60vw;
   }
   
@@ -174,6 +196,7 @@ code {
   
   .project-name {
     font-weight: bolder;
+    margin-block: 1vh;
   }
 
   .divider-container {
@@ -339,4 +362,10 @@ code {
     background-color: rgba(70, 70, 70, 1);
     scale: 0.9;
     transition: 200ms;
+  }
+
+  .demo-btn,
+  .github-btn {
+    border-radius: 20%;
+    height: 3.2vh;
   }

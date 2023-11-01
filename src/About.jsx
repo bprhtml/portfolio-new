@@ -12,7 +12,7 @@ function About () {
             </div>
             <div className="divider-about"></div>
             <div className="about-me-mid">
-                <img className="about-me-gary" src="me and gary.jpeg" />
+                <img className="about-me-gary" src="me and gary.jpeg" alt="My dog and I." />
                 <div className="mid-para">Starting in 2022, I have produced over 30 projects in JavaScript and HTML/CSS, ranging from games to to-do lists, and creating websites produced from my own ideas.</div>
             </div>
             <div className="divider-about"></div>
