@@ -1,21 +1,21 @@
 let projects = [
-    {name: 'Etch-a-Sketch', desc: "A sketchpad using grid squares to emulate the classic kids' toy.", imgSrc: '/eas-ss.png', live: 'https://mrbenrice.github.io/etchasketch/', gitHub: 'https://github.com/mrbenrice/etchasketch'},
-    {name: 'Snake', desc: "Using the canvas to create a game of snake as found on older mobile devices.", imgSrc: '/s-ss.png', live: 'https://mrbenrice.github.io/snake/', gitHub: 'https://github.com/mrbenrice/snake'},
-    {name: 'Calculator', desc: "Using classes to create a functioning calculator.", imgSrc: '/ccl-ss.png', live: 'https://mrbenrice.github.io/calculator/', gitHub: 'https://github.com/mrbenrice/calculator'},
-    {name: 'Rock, Paper, Scissors', desc: "One of my first projects! A game of rock, paper, scissors.", imgSrc: '/rps-ss.png', live: 'https://mrbenrice.github.io/rock_paper_scissors/', gitHub: 'https://github.com/mrbenrice/rock_paper_scissors'},
-    {name: 'Factor Calculator', desc: "Another of my early projects, this was built based on an issue I faced in key stage 2 maths!", imgSrc: '/fc-ss.png', live: 'https://mrbenrice.github.io/factorcalc/', gitHub: 'https://github.com/mrbenrice/factorcalc'},
-    {name: 'GIF Search', desc: "A website that allows the user to search for a GIF image, using the GIPHY API.", imgSrc: '/square.gif', live: 'https://bprhtml.github.io/gif-picker/', gitHub: 'https://github.com/bprhtml/gif-picker/'}
+    {name: 'Etch-a-Sketch', desc: "A sketchpad using grid squares to emulate the classic kids' toy.", imgSrc: './eas-ss.png', live: 'https://mrbenrice.github.io/etchasketch/', gitHub: 'https://github.com/mrbenrice/etchasketch'},
+    {name: 'Snake', desc: "Using the canvas to create a game of snake as found on older mobile devices.", imgSrc: './s-ss.png', live: 'https://mrbenrice.github.io/snake/', gitHub: 'https://github.com/mrbenrice/snake'},
+    {name: 'Calculator', desc: "Using classes to create a functioning calculator.", imgSrc: './ccl-ss.png', live: 'https://mrbenrice.github.io/calculator/', gitHub: 'https://github.com/mrbenrice/calculator'},
+    {name: 'Rock, Paper, Scissors', desc: "One of my first projects! A game of rock, paper, scissors.", imgSrc: './rps-ss.png', live: 'https://mrbenrice.github.io/rock_paper_scissors/', gitHub: 'https://github.com/mrbenrice/rock_paper_scissors'},
+    {name: 'Factor Calculator', desc: "Another of my early projects, this was built based on an issue I faced in key stage 2 maths!", imgSrc: './fc-ss.png', live: 'https://mrbenrice.github.io/factorcalc/', gitHub: 'https://github.com/mrbenrice/factorcalc'},
+    {name: 'GIF Search', desc: "A website that allows the user to search for a GIF image, using the GIPHY API.", imgSrc: './square.gif', live: 'https://bprhtml.github.io/gif-picker/', gitHub: 'https://github.com/bprhtml/gif-picker/'}
 ]
 
 let reactProjects = [
-    {name: 'MovDB', desc: "Using an API from OMDB, this searches and gives info on any film the user searches.", imgSrc: 'movies.png'},
-    {name: 'TicTacToe', desc: "Created a game of noughts & crosses using React.", imgSrc: 'tictoe.png'},
-    {name: 'NewsApp', desc: "Using the WorldNews API, this provides local headlines.", imgSrc: 'news.png'},
-    {name: 'WeatherApp', desc: "Using WeatherAPI, this provides weather informtion at users' locations or selected locations.", imgSrc: 'weather.png'}
+    {name: 'MovDB', desc: "Using an API from OMDB, this searches and gives info on any film the user searches.", imgSrc: './movies.png'},
+    {name: 'TicTacToe', desc: "Created a game of noughts & crosses using React.", imgSrc: './tictoe.png'},
+    {name: 'NewsApp', desc: "Using the WorldNews API, this provides local headlines.", imgSrc: './news.png'},
+    {name: 'WeatherApp', desc: "Using WeatherAPI, this provides weather informtion at users' locations or selected locations.", imgSrc: './weather.png'}
 ]
 
 let miscProjects = [
-    {name: 'Clonda', desc: "Using Pygame, I made a Zelda clone", imgSrc: '/zelda.png'}
+    {name: 'Clonda', desc: "Using Pygame, I made a Zelda clone", imgSrc: './zelda.png'}
 ]
 
 function Projects () {
