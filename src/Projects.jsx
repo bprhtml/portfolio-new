@@ -52,9 +52,10 @@ function JavaScriptProjectsGrid ({ projects }) {
             {projects.map(((project, index) => {
                 return (
                     <div key={index} className="project-card">
-                        <img src={project.imgSrc} alt={project.desc} key={project.name} className="project-img"/>
-                        <div className="project-name">{project.name}</div>
-                        <div className="project-desc">{project.desc}</div>
+                        <img src={project.imgSrc} key={project.name} alt={project.desc} className="project-img"/>
+                        <div className="project-name">{project.name}
+                            <span className="project-desc">{project.desc}</span>
+                        </div>
                         <button className="demo-btn">
                             <a href={project.live}>
                                 <img className="demo-logo" src="demo.svg" />
@@ -80,9 +81,10 @@ function ReactProjectsGrid({ reactProjects }) {
             {reactProjects.map(((project, index) => {
                 return (
                     <div key={index} className="project-card">
-                        <img src={project.imgSrc} className="project-img" />
-                        <div className="project-name">{project.name}</div>
-                        <div className="project-desc">{project.desc}</div>
+                        <img src={project.imgSrc} alt={project.desc} className="project-img" />
+                        <div className="project-name">{project.name}
+                            <span className="project-desc">{project.desc}</span>
+                        </div>
                     </div>
                 )
             }))}
@@ -98,7 +100,7 @@ function MiscProjectsGrid({ miscProjects }) {
             {miscProjects.map(((project, index) => {
                 return (
                     <div key={index} className="project-card">
-                        <img src={project.imgSrc} className="project-img" />
+                        <img src={project.imgSrc} alt={project.desc} className="project-img" />
                         <div className="project-name">{project.name}</div>
                         <div className="project-desc">{project.desc}</div>
                     </div>    

@@ -33,12 +33,14 @@ function App() {
 
 const lightTheme = {
   backgroundColor: 'rgb(240,240,240)',
-  color: 'rgb(20,20,20)'
+  color: 'rgb(20,20,20)',
+  marginBlock: '10vh'
 }
 
 const darkTheme = {
   backgroundColor: 'rgb(20,20,20)',
-  color: 'rgb(240,240,240)'
+  color: 'rgb(240,240,240)',
+  marginBlock: '10vh'
 }
 
 export default App;
