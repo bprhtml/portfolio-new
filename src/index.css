@@ -186,6 +186,7 @@ code {
   .project-card {
     height: fit-content;
     padding: 1vh;
+    margin-block: 10vh;
   }
   .project-card:hover {
     scale: 1.2;
@@ -208,8 +209,7 @@ code {
     position: absolute;
     z-index: 1;
     width: 18vw;
-    left: 50%;
-    margin-left: -9vw;
+    right: -50%;
     margin-top: 5vh;
     border-radius: 5px;
     padding: 1px;
@@ -233,7 +233,6 @@ code {
     width: 85vw;
     height: 1.3vh;
     background-color: grey;
-    margin-block: 20vh;
   }
 
   .rpcc {
