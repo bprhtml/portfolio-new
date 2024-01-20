@@ -3,9 +3,10 @@ import React from "react";
 function Contact () {
     return (
         <div className="contact-area">
-        <h1 className="contact">Contact Me</h1>
-        <h4>Please contact me directly at bprhtml@gmail.com or via the form below.</h4>
-        <ContactForm />
+            <div className="divider"></div>
+            <h1 className="contact">Contact Me</h1>
+            <h4>Please contact me directly at bprhtml@gmail.com or via the form below.</h4>
+            <ContactForm />
         </div>
     )
 }

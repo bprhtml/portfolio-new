@@ -22,7 +22,6 @@ function About () {
                     <img className="drumming-photo" src="me-drumming.png" alt="Myself drumming in a YouTube video from my channel."></img>
                 </a>
             </div>
-            <div className="divider"></div>
         </div>
         </div>
     )

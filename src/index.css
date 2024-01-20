@@ -57,6 +57,8 @@ code {
 }
 
 .banner-holder {
+  padding-inline: 1vw;
+  overflow: hidden;
   z-index: 1;
   display: grid;
   width: 40vw;
@@ -215,7 +217,7 @@ code {
     padding: 1px;
   }
 
-  .project-card:hover .project-desc {
+  .project-card:active .project-desc {
     visibility: visible;
   }
 
@@ -306,6 +308,7 @@ code {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 10vh;
   }
 
   .top-para,
@@ -356,6 +359,10 @@ code {
     align-items: center;
   }
 
+  .contact-form>*>* {
+    border-radius: 5px;
+  }
+
   #email {
     width: 30vw;
     height: 8vh;
@@ -388,4 +395,8 @@ code {
   .github-btn {
     border-radius: 20%;
     height: 3.2vh;
+  }
+
+  h5 {
+    text-align: center;
   }

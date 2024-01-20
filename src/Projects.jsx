@@ -24,6 +24,7 @@ function Projects () {
     return (
         <>
         <h1 id="projects">Javascript Projects</h1>
+        <h5>Hold mouse button to find out more!</h5>
         <div className="pcc">
             <JavaScriptProjectsGrid projects={projects}/>
         </div>
@@ -31,6 +32,7 @@ function Projects () {
             <div className="divider"></div>
         </div>
         <h1 id="react-projects">React Projects</h1>
+        <h5>Hold mouse button to find out more!</h5>
         <div className="rpcc">
             <ReactProjectsGrid reactProjects={reactProjects} />
         </div>
@@ -38,6 +40,7 @@ function Projects () {
             <div className="divider"></div>
         </div>
         <h1 id="misc-projects">Miscellaneous Projects</h1>
+        <h5>Hold mouse button to find out more!</h5>
         <div>
             <MiscProjectsGrid miscProjects={miscProjects} />
         </div>
