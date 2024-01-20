@@ -8,7 +8,7 @@ function About () {
         <div id="about-container">
             <div className="about-me-top">
                 <div className="top-para">An aspiring web designer, I have created a plethora of projects - predominantly in JavaScript - however I have programmed in languages such as Python to create more diverse projects - including side-scrolling games.</div>
-                <img className="about-me-photo" src="https://media.licdn.com/dms/image/D4E03AQET5GEWP7EPOA/profile-displayphoto-shrink_800_800/0/1689058766782?e=1703116800&v=beta&t=-bPOXom00hTnSlgQ4I9GOPFZfLdUvg1kJiITce2UNbs"></img>
+                <img className="about-me-photo" src="me.jpg" alt="Portrait of myself."></img>
             </div>
             <div className="divider-about"></div>
             <div className="about-me-mid">
