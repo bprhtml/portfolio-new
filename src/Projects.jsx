@@ -12,7 +12,8 @@ let reactProjects = [
     {name: 'TicTacToe', desc: "Created a game of noughts & crosses using React.", imgSrc: './tictoe.png'},
     {name: 'NewsApp', desc: "Using the WorldNews API, this provides local headlines.", imgSrc: './news.png'},
     {name: 'WeatherApp', desc: "Using WeatherAPI, this provides weather informtion at users' locations or selected locations.", imgSrc: './weather.png'},
-    {name: 'To-do List', desc: "Created a simple to-do list which utilises local storage.", imgSrc: './todo.png'}
+    {name: 'To-do List', desc: "Created a simple to-do list which utilises local storage.", imgSrc: './todo.png'},
+    {name: 'Shazmaps', desc: "Created a clone of Shazam with the added feature of adding the location of the identification to a map", imgSrc: './shazmaps.png'}
 ]
 
 let miscProjects = [

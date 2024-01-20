@@ -228,9 +228,10 @@ code {
   
   .react-grid {
     display: grid;
-    grid-template-columns: repeat(2, 20vw);
-    grid-template-rows: repeat(2, 20vw);
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 20vw);
     gap: 10vw;
+    margin: 10vh;
   }
 
   #skills {
